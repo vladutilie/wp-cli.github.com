@@ -14,13 +14,6 @@ Requirements
 Installing
 ==========
 
-**Via PEAR:**
-
-<pre>
-sudo pear channel-discover wp-cli.org/pear
-sudo pear install wpcli/wpcli
-</pre>
-
 **Via GIT:**
 
 <pre>
@@ -30,6 +23,17 @@ sudo utils/dev-build
 </pre>
 
 You can replace `~/git/wp-cli` with whatever you want.
+
+**Via PEAR:**
+
+<pre>
+sudo pear channel-discover wp-cli.org/pear
+sudo pear install wpcli/wpcli
+</pre>
+
+**Via Debian Package:**
+
+Just download the <a href="/packages/deb/php-wpcli_0.8-1_all.deb">php-wpcli_0.8-1_all.deb</a> file and open it.
 
 MAMP, XAMP, etc.
 -----------
