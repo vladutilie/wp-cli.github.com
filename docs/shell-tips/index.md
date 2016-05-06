@@ -7,6 +7,22 @@ category: References
 
 Master of bash or zsh? Share your tips here.
 
+## Enable autocompletion
+
+To use the autocompletion script locally, you'll need to first download it from Github:
+
+```bash
+wget -O .wp-completion.bash https://raw.githubusercontent.com/wp-cli/wp-cli/master/utils/wp-completion.bash
+```
+
+Once you have a local copy, you can enable it with `source`:
+
+```bash
+source .wp-completion.bash`
+```
+
+To load autocompletion each time you open a new shell, you'll need to include the example above in your `.bash_profile` or similar.
+
 ## Take a look at the plugin changelog
 
 Needs `elinks` to browse HTML.
